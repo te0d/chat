@@ -1,0 +1,30 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.page-header {
+  opacity: 0.3;
+}
+
+.history {
+  width: 100%;
+  overflow-y: auto;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}

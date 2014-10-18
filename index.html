@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Tommy Chat</title>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<div class="container">
+  <div class="page-header" data-spy="affix">
+    <h1>Tommy Chat<h1>
+  </div>
+
+  <div class="history">
+    <table id="messages" class="table table-striped"></table>
+  </div>
+</div>
+
+<div class="footer" data-spy="affix">
+<div class="container">
+  <div class="input-group">
+    <input type="text" id="sendTextbox" class="form-control">
+    <span class="input-group-btn">
+      <button id="sendButton" class="btn btn-default" type="button">Send</button>
+    </span>
+  </div>
+</div>
+</div>
+
+<script type="text/javascript" src="./chat.js"></script>
+</body>
+
+</html>
